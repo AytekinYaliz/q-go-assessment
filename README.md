@@ -1,17 +1,17 @@
 ### MODIFICATIONS
 
 1. Move App component into /components folder
-  - Remove <Provider /> from App to main index.js
+  - Remove Provider from App to main index.js
 2. Create /containers/Items component
   - Move items logic from App component into here
 2. ItemCreator/index.js
-  - <form /> is added
+  - form is added
   - onClick={handleOnSubmit}
 3. Add /components/ItemDetail component
-  - Make ItemsList component use <ItemDetail />
+  - Make ItemsList component use ItemDetail
   - We can also use style={{text-decoration: 'line-through'}} for simplicity
 4. Add /components/ItemsFilter component
-  - Make App component use <ItemsFilter />
+  - Make App component use ItemsFilter
   - Add /components/ItemsFilter/FilterTodosItem component for generic use.
   - Add 'filterBy' into the initialState
 5. Create npm scripts:
