@@ -21,5 +21,8 @@
   
 7. Comments:
   - I've put 'filterBy' into the same reducer with todos. I would suggest splitting reducers so that to use storing array for todos reducer (remove items wrapper object) and keeping another reducer for the filterBy to store a string value.
-  - Would like to add istanbul for code coverage.
-  - Would like to add react-bootstrap
+  - SSR
+  - Snapshot tests
+  - Code splitting
+  - Code coverage (istanbul).
+  - Bootstrap (react-bootstrap)
