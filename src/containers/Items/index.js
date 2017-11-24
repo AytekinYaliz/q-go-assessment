@@ -41,6 +41,7 @@ class Items extends Component {
         <ItemsFilter 
           filterBy={this.props.filterBy}
           onFilter={this.handleOnFilter}
+          totalItems={this.props.items.length}
         />
       </div>
     );
